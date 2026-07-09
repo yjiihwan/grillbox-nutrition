@@ -5,18 +5,24 @@ let active = "전체";
 
 const won = (n) => (n == null ? "-" : n.toLocaleString("ko-KR") + "원");
 
+// 계산근거 블록 화면 노출 토글. 데이터(m.basis)·로직은 유지, 렌더만 skip. 되살리려면 true.
+const SHOW_BASIS = false;
+
 function nutriBlock(m) {
   if (m.status === "pending" || !m.nutrition) {
     return `<div class="nutri pending"><div class="cell">영양 정보 확인 중</div></div>`;
   }
   const n = m.nutrition;
+  const basis = SHOW_BASIS
+    ? `<div class="basis">계산 근거: ${m.basis.join(" + ")}</div>`
+    : "";
   return `
     <div class="nutri">
       <div class="cell kcal"><div class="lab">칼로리</div><div class="val">${n.kcal}<span class="u">kcal</span></div></div>
       <div class="cell protein"><div class="lab">단백질</div><div class="val">${n.protein}<span class="u">g</span></div></div>
       <div class="cell carb"><div class="lab">탄수화물</div><div class="val">${n.carb}<span class="u">g</span></div></div>
     </div>
-    <div class="basis">계산 근거: ${m.basis.join(" + ")}</div>
+    ${basis}
     <span class="est-tag">추정치</span>`;
 }
 
