@@ -67,7 +67,9 @@ async function init() {
   const res = await fetch("data/menus.json");
   const data = await res.json();
   ALL = data.menus;
-  document.getElementById("disc").textContent = "※ " + data._meta.disclaimer;
+  // 계산근거성 서술(재료·데이터 기반 방법론) 비노출 → index.html의 짧은 disclaimer 유지.
+  // 되살리려면 아래 주석 해제. 데이터(_meta.disclaimer)는 그대로 남김.
+  // document.getElementById("disc").textContent = "※ " + data._meta.disclaimer;
   buildTabs();
   render();
 }
