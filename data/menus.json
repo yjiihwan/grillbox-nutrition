@@ -5,7 +5,8 @@
     "표기항목": [
       "칼로리(kcal)",
       "단백질(g)",
-      "탄수화물(g)"
+      "탄수화물(g)",
+      "지방(g)"
     ],
     "count": 29
   },
@@ -20,7 +21,8 @@
       "nutrition": {
         "kcal": 805,
         "protein": 55.7,
-        "carb": 72.7
+        "carb": 72.7,
+        "fat": 31.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -39,7 +41,8 @@
       "nutrition": {
         "kcal": 871,
         "protein": 57.7,
-        "carb": 72.7
+        "carb": 72.7,
+        "fat": 38.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -58,7 +61,8 @@
       "nutrition": {
         "kcal": 905,
         "protein": 82.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 36.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -76,7 +80,8 @@
       "nutrition": {
         "kcal": 1337,
         "protein": 134.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 60.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -94,7 +99,8 @@
       "nutrition": {
         "kcal": 715,
         "protein": 55.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 28.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -112,7 +118,8 @@
       "nutrition": {
         "kcal": 819,
         "protein": 59.7,
-        "carb": 72.7
+        "carb": 72.7,
+        "fat": 30.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -131,7 +138,8 @@
       "nutrition": {
         "kcal": 675,
         "protein": 52.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 25.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -149,7 +157,8 @@
       "nutrition": {
         "kcal": 884,
         "protein": 76.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 38.0
       },
       "basis": [
         "흰쌀밥 180g",
@@ -167,7 +176,8 @@
       "nutrition": {
         "kcal": 1302,
         "protein": 124.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 63.0
       },
       "basis": [
         "흰쌀밥 180g",
@@ -185,7 +195,8 @@
       "nutrition": {
         "kcal": 741,
         "protein": 54.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 32.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -203,7 +214,8 @@
       "nutrition": {
         "kcal": 983,
         "protein": 79.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 48.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -221,7 +233,8 @@
       "nutrition": {
         "kcal": 1467,
         "protein": 129.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 80.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -239,7 +252,8 @@
       "nutrition": {
         "kcal": 689,
         "protein": 56.7,
-        "carb": 56.7
+        "carb": 56.7,
+        "fat": 24.5
       },
       "basis": [
         "흰쌀밥 180g",
@@ -257,7 +271,8 @@
       "nutrition": {
         "kcal": 655,
         "protein": 56.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 26.4
       },
       "basis": [
         "삶은 150g",
@@ -275,7 +290,8 @@
       "nutrition": {
         "kcal": 864,
         "protein": 80.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 38.9
       },
       "basis": [
         "삶은 150g",
@@ -293,7 +309,8 @@
       "nutrition": {
         "kcal": 1282,
         "protein": 128.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 63.9
       },
       "basis": [
         "삶은 150g",
@@ -311,7 +328,8 @@
       "nutrition": {
         "kcal": 721,
         "protein": 58.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 33.4
       },
       "basis": [
         "삶은 150g",
@@ -329,7 +347,8 @@
       "nutrition": {
         "kcal": 963,
         "protein": 83.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 49.4
       },
       "basis": [
         "삶은 150g",
@@ -347,7 +366,8 @@
       "nutrition": {
         "kcal": 1447,
         "protein": 133.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 81.3
       },
       "basis": [
         "삶은 150g",
@@ -365,7 +385,8 @@
       "nutrition": {
         "kcal": 669,
         "protein": 60.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 25.4
       },
       "basis": [
         "삶은 150g",
@@ -383,7 +404,8 @@
       "nutrition": {
         "kcal": 885,
         "protein": 86.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 37.4
       },
       "basis": [
         "삶은 150g",
@@ -401,7 +423,8 @@
       "nutrition": {
         "kcal": 1317,
         "protein": 138.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 61.4
       },
       "basis": [
         "삶은 150g",
@@ -419,7 +442,8 @@
       "nutrition": {
         "kcal": 695,
         "protein": 59.7,
-        "carb": 46.3
+        "carb": 46.3,
+        "fat": 29.4
       },
       "basis": [
         "삶은 150g",
@@ -437,7 +461,8 @@
       "nutrition": {
         "kcal": 12,
         "protein": 0.6,
-        "carb": 2.4
+        "carb": 2.4,
+        "fat": 0.0
       },
       "basis": [
         "아메리카노 벤티"
@@ -454,7 +479,8 @@
       "nutrition": {
         "kcal": 0,
         "protein": 0.0,
-        "carb": 0.0
+        "carb": 0.0,
+        "fat": 0.0
       },
       "basis": [
         "제로 음료(제로칼로리 표기)"
@@ -471,7 +497,8 @@
       "nutrition": {
         "kcal": 0,
         "protein": 0.0,
-        "carb": 0.0
+        "carb": 0.0,
+        "fat": 0.0
       },
       "basis": [
         "제로 음료(제로칼로리 표기)"
@@ -488,7 +515,8 @@
       "nutrition": {
         "kcal": 0,
         "protein": 0.0,
-        "carb": 0.0
+        "carb": 0.0,
+        "fat": 0.0
       },
       "basis": [
         "제로 음료(제로칼로리 표기)"
@@ -505,7 +533,8 @@
       "nutrition": {
         "kcal": 0,
         "protein": 0.0,
-        "carb": 0.0
+        "carb": 0.0,
+        "fat": 0.0
       },
       "basis": [
         "제로 음료(제로칼로리 표기)"
@@ -522,7 +551,8 @@
       "nutrition": {
         "kcal": 0,
         "protein": 0.0,
-        "carb": 0.0
+        "carb": 0.0,
+        "fat": 0.0
       },
       "basis": [
         "제로 음료(제로칼로리 표기)"

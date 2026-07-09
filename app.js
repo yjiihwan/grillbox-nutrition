@@ -21,6 +21,7 @@ function nutriBlock(m) {
       <div class="cell kcal"><div class="lab">칼로리</div><div class="val">${n.kcal}<span class="u">kcal</span></div></div>
       <div class="cell protein"><div class="lab">단백질</div><div class="val">${n.protein}<span class="u">g</span></div></div>
       <div class="cell carb"><div class="lab">탄수화물</div><div class="val">${n.carb}<span class="u">g</span></div></div>
+      <div class="cell fat"><div class="lab">지방</div><div class="val">${n.fat}<span class="u">g</span></div></div>
     </div>
     ${basis}
     <span class="est-tag">추정치</span>`;

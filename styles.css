@@ -33,6 +33,7 @@
   --c-kcal: var(--gb-red);       /* 칼로리 바 = Grill Red (숫자도 red: 다크 위 4.76 AA) */
   --c-protein: var(--gb-wine);   /* 단백질 바 = Char Wine (숫자는 오프화이트) */
   --c-carb: var(--gb-brick);     /* 탄수화물 바 = Ember Brick (숫자는 오프화이트) */
+  --c-fat: var(--gb-muted);      /* 지방 바 = Warm Taupe (오렌지·앰버 폐기 규칙 준수, 4번째 보조 영양) */
 
   /* 타이포 — Pretendard 정식(가이드 §2). 위계는 굵기로만. */
   --font-base: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont,
@@ -149,21 +150,22 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 
 /* 영양 테이블 */
 .nutri {
-  margin-top: 12px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 12px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 6px; border-top: 1px dashed var(--c-border); padding-top: 12px;
 }
 /* ⚠️ 3영양 구분 = 셀 상단 3px 컬러바(장식). wine/brick은 다크 위 글자색 대비 부족(1.5~1.7)이라
    숫자 글자색으로 못 씀 → 바로 코딩하고 숫자는 가독색으로. */
 .nutri .cell {
   text-align: center; background: var(--c-surface-2); border-radius: var(--radius-sm);
-  padding: 8px 2px; border-top: 3px solid transparent;
+  padding: 8px 1px; border-top: 3px solid transparent;
 }
-.nutri .lab { font-size: 0.68rem; color: var(--c-text-dim); }
-.nutri .val { font-size: 1.02rem; font-weight: 800; margin-top: 2px; color: var(--c-text); white-space: nowrap; }
-.nutri .val .u { font-size: 0.62rem; font-weight: 600; color: var(--c-text-dim); margin-left: 1px; }
+.nutri .lab { font-size: 0.64rem; color: var(--c-text-dim); }
+.nutri .val { font-size: 0.92rem; font-weight: 800; margin-top: 2px; color: var(--c-text); white-space: nowrap; }
+.nutri .val .u { font-size: 0.56rem; font-weight: 600; color: var(--c-text-dim); margin-left: 1px; }
 .nutri .kcal    { border-top-color: var(--c-kcal); }
 .nutri .protein { border-top-color: var(--c-protein); }
 .nutri .carb    { border-top-color: var(--c-carb); }
+.nutri .fat     { border-top-color: var(--c-fat); }
 .nutri .kcal .val { color: var(--c-kcal); } /* 칼로리 = 히어로 수치, Grill Red(4.76 AA) */
 
 .nutri.pending {
