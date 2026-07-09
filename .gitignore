@@ -1,0 +1,11 @@
+# 백업 폴더 (레드/워드마크 마이그레이션 전 스냅샷)
+.bak_*/
+
+# 내부 검증용 스크린샷 (배포 불필요, 19M)
+screenshots/
+
+# 원시 스크레이프 데이터 (재생성 소스, 대용량)
+build/naver_menus_raw.json
+
+.DS_Store
+Thumbs.db

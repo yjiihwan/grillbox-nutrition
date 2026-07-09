@@ -1,0 +1,186 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+/* ============================================================
+   그릴박스 영양성분 페이지 — 디자인 토큰
+   ⚠️ 2026-07-09 레드 팔레트 개정 마이그레이션 (design봇)
+   출처: shared_inbox/results/grillbox_brand_assets_guide.md §1 (레드 개정)
+   시그니처: Char Surface #131211 + Grill Red #FF110E + Char Wine #8E212B · Pretendard.
+   ⚠️ 오렌지·앰버골드 전면 폐기. 레드 면 위 글자 = White.
+      Grill Red 위 흰 글자는 대비 3.93 → ≥19px Bold만. 소형 텍스트 위 배경은 Char Wine.
+   ============================================================ */
+:root {
+  /* 7 코어 컬러 (가이드 §1 레드 팔레트) */
+  --gb-red:     #FF110E;
+  --gb-wine:    #8E212B;
+  --gb-brick:   #AF1823;
+  --gb-ink:     #221817;
+  --gb-surface: #131211;
+  --gb-white:   #FFFFFF;
+  --gb-text:    #F5F3EF;
+  --gb-muted:   #9A968E;
+
+  /* 페이지 매핑 */
+  --c-bg: var(--gb-surface);     /* Char Surface 베이스(다크) */
+  --c-surface: #1C1A19;          /* 카드 (배경보다 한 톤 위, 웜) */
+  --c-surface-2: #232120;        /* 영양셀·썸네일 */
+  --c-border: #35312c;           /* 웜 차콜 보더 */
+  --c-text: var(--gb-text);
+  --c-text-dim: var(--gb-muted);
+  --c-accent: var(--gb-red);     /* primary·가격·핵심 강조(≥Bold, 그래픽) */
+  --c-tab-active: var(--gb-wine);/* ⚠️ 탭 활성: Grill Red 위 소형 흰글자 3.93 불가 → Char Wine(8.74) */
+  --c-badge: var(--gb-red);      /* 카테고리 배지 텍스트(다크 위 4.76 AA) */
+  --c-on-red: var(--gb-white);   /* 레드/와인 면 위 글자 = White */
+  /* 영양 3색 — 셀 상단 컬러바(장식)로 코딩. 숫자 글자색은 가독 우선. */
+  --c-kcal: var(--gb-red);       /* 칼로리 바 = Grill Red (숫자도 red: 다크 위 4.76 AA) */
+  --c-protein: var(--gb-wine);   /* 단백질 바 = Char Wine (숫자는 오프화이트) */
+  --c-carb: var(--gb-brick);     /* 탄수화물 바 = Ember Brick (숫자는 오프화이트) */
+
+  /* 타이포 — Pretendard 정식(가이드 §2). 위계는 굵기로만. */
+  --font-base: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont,
+               "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  --fs-caption: 0.8125rem;  /* 13 */
+  --fs-body:    0.9375rem;  /* 15 */
+  --fs-sub:     1.125rem;   /* 18 */
+  --fs-title:   1.5rem;     /* 24 */
+  --fs-display: 2rem;       /* 32 */
+  --fs-hero:    2.75rem;    /* 44 */
+  --fs-menu:    1.125rem;
+  --fs-small:   var(--fs-caption);
+
+  /* 간격/모양 */
+  --radius: 16px;
+  --radius-sm: 10px;
+  --gap: 14px;
+  --maxw: 1120px;
+}
+/* 숫자는 tabular(고정폭)로 정렬 — 가이드 §2 */
+.price, .nutri .val, .nutri .val .u { font-variant-numeric: tabular-nums; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-base);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+}
+.card, .grid, .nutri, .nutri .cell, .body { min-width: 0; }
+.desc, .basis { overflow-wrap: anywhere; word-break: keep-all; }
+img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* 헤더 */
+.hero {
+  padding: 28px 18px 20px;
+  text-align: center;
+  background:
+    radial-gradient(120% 80% at 50% -12%, rgba(255,17,14,0.22), transparent 58%),
+    radial-gradient(90% 60% at 50% -6%, rgba(142,33,43,0.14), transparent 55%),
+    var(--c-bg);
+  border-bottom: 1px solid var(--c-border);
+}
+/* 워드마크 SVG (White 버전 — 다크 배경용). 그라데이션·자형변형 금지 준수 */
+.hero .brand { display: inline-block; height: 30px; width: auto; }
+.hero h1 { font-size: var(--fs-sub); font-weight: 700; margin-top: 10px; }
+.hero p { color: var(--c-text-dim); font-size: var(--fs-small); margin-top: 8px; }
+
+/* 면책 배너 */
+.disclaimer {
+  max-width: var(--maxw); margin: 14px auto 0; padding: 0 16px;
+}
+.disclaimer div {
+  background: var(--c-surface); border: 1px solid var(--c-border);
+  border-left: 3px solid var(--c-accent);
+  border-radius: var(--radius-sm); padding: 10px 12px;
+  color: var(--c-text-dim); font-size: var(--fs-small);
+}
+
+/* 카테고리 탭 */
+.tabs {
+  position: sticky; top: 0; z-index: 5;
+  display: flex; gap: 8px; overflow-x: auto;
+  padding: 14px 16px; margin: 0 auto; max-width: var(--maxw);
+  background: rgba(19,18,17,0.9); backdrop-filter: blur(8px);
+  -webkit-overflow-scrolling: touch;
+}
+.tab {
+  flex: 0 0 auto; border: 1px solid var(--c-border);
+  background: var(--c-surface); color: var(--c-text-dim);
+  padding: 8px 16px; border-radius: 999px; font-size: var(--fs-body);
+  font-weight: 600; cursor: pointer; transition: .15s;
+}
+/* ⚠️ 활성 탭 = Char Wine 배경 + White (소형 텍스트라 Grill Red 위 흰글자 3.93 불가) */
+.tab.active { background: var(--c-tab-active); color: var(--c-on-red); border-color: var(--c-tab-active); font-weight: 700; }
+
+/* 그리드 */
+.grid {
+  max-width: var(--maxw); margin: 6px auto 40px; padding: 6px 16px;
+  display: grid; gap: var(--gap);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 600px) { .grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 940px) { .grid { grid-template-columns: 1fr 1fr 1fr; } }
+
+/* 카드 */
+.card {
+  background: var(--c-surface); border: 1px solid var(--c-border);
+  border-radius: var(--radius); overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.card .thumb { aspect-ratio: 4/3; background: var(--c-surface-2); position: relative; }
+.card .thumb .noimg {
+  display: flex; align-items: center; justify-content: center; height: 100%;
+  color: var(--c-text-dim); font-size: var(--fs-small);
+}
+/* 카테고리 배지: 다크 반투명 위 Grill Red 텍스트(4.76 AA) */
+.card .cat-badge {
+  position: absolute; top: 10px; left: 10px;
+  background: rgba(0,0,0,0.6); color: var(--c-badge);
+  font-size: var(--fs-small); font-weight: 700; padding: 3px 9px; border-radius: 999px;
+}
+.card .body { padding: 13px 14px 14px; display: flex; flex-direction: column; flex: 1; }
+.card .name { font-size: var(--fs-menu); font-weight: 700; letter-spacing: -0.01em; }
+.card .price { color: var(--c-accent); font-weight: 700; font-size: var(--fs-body); margin-top: 2px; }
+.card .desc {
+  color: var(--c-text-dim); font-size: var(--fs-small); margin-top: 8px;
+  min-height: 2.4em;
+}
+
+/* 영양 테이블 */
+.nutri {
+  margin-top: 12px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px; border-top: 1px dashed var(--c-border); padding-top: 12px;
+}
+/* ⚠️ 3영양 구분 = 셀 상단 3px 컬러바(장식). wine/brick은 다크 위 글자색 대비 부족(1.5~1.7)이라
+   숫자 글자색으로 못 씀 → 바로 코딩하고 숫자는 가독색으로. */
+.nutri .cell {
+  text-align: center; background: var(--c-surface-2); border-radius: var(--radius-sm);
+  padding: 8px 2px; border-top: 3px solid transparent;
+}
+.nutri .lab { font-size: 0.68rem; color: var(--c-text-dim); }
+.nutri .val { font-size: 1.02rem; font-weight: 800; margin-top: 2px; color: var(--c-text); white-space: nowrap; }
+.nutri .val .u { font-size: 0.62rem; font-weight: 600; color: var(--c-text-dim); margin-left: 1px; }
+.nutri .kcal    { border-top-color: var(--c-kcal); }
+.nutri .protein { border-top-color: var(--c-protein); }
+.nutri .carb    { border-top-color: var(--c-carb); }
+.nutri .kcal .val { color: var(--c-kcal); } /* 칼로리 = 히어로 수치, Grill Red(4.76 AA) */
+
+.nutri.pending {
+  grid-template-columns: 1fr; border-top: 1px dashed var(--c-border);
+}
+.nutri.pending .cell { color: var(--c-text-dim); font-size: var(--fs-small); font-weight: 600; border-top-color: transparent; }
+
+.basis {
+  margin-top: 8px; font-size: 0.68rem; color: var(--c-text-dim); opacity: .8;
+}
+.est-tag {
+  display: inline-block; font-size: 0.62rem; color: var(--c-badge);
+  border: 1px solid var(--c-border); border-radius: 6px; padding: 1px 5px; margin-top: 8px;
+}
+
+footer {
+  max-width: var(--maxw); margin: 0 auto; padding: 22px 16px 40px;
+  color: var(--c-text-dim); font-size: var(--fs-small); text-align: center;
+  border-top: 1px solid var(--c-border);
+}

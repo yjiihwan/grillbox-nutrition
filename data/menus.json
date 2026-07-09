@@ -1,0 +1,533 @@
+{
+  "_meta": {
+    "source": "네이버 플레이스 — 그릴박스 노량진점 (placeId 1093880694)",
+    "disclaimer": "표기값은 재료·표준 영양데이터 기반 추정치이며 실제와 차이가 있을 수 있습니다. 정밀 실측 아님.",
+    "표기항목": [
+      "칼로리(kcal)",
+      "단백질(g)",
+      "탄수화물(g)"
+    ],
+    "count": 29
+  },
+  "menus": [
+    {
+      "id": "1093880694_0",
+      "name": "그릴드 치킨 카레라이스",
+      "category": "덮밥",
+      "price": "8900",
+      "description": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨 스테이크 200g, 일본식 카레",
+      "image": "https://ldb-phinf.pstatic.net/20251218_259/1766046351122iBTOx_PNG/%B9%E8%B9%CE_%C4%A1%C5%B2_c.png",
+      "nutrition": {
+        "kcal": 805,
+        "protein": 55.7,
+        "carb": 72.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "일본식 카레소스 1인분",
+        "치킨(닭다리살) 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_1",
+      "name": "그릴드 포크 카레라이스",
+      "category": "덮밥",
+      "price": "9900",
+      "description": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 포크 스테이크 200g, 일본식 카레",
+      "image": "https://ldb-phinf.pstatic.net/20251218_156/1766046361916WJ8Su_PNG/%B9%E8%B9%CE_%C6%F7%C5%A9_c.png",
+      "nutrition": {
+        "kcal": 871,
+        "protein": 57.7,
+        "carb": 72.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "일본식 카레소스 1인분",
+        "포크(돼지 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_10",
+      "name": "2XL 그릴드 비프 덮밥",
+      "category": "덮밥",
+      "price": "16900",
+      "description": "비프 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_26/1738894690331pLdjj_PNG/%B9%E8%B9%CE_%BA%F1%C7%C12.png",
+      "nutrition": {
+        "kcal": 905,
+        "protein": 82.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "비프(소목살) 300g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_11",
+      "name": "3XL 그릴드 비프 덮밥",
+      "category": "덮밥",
+      "price": "26900",
+      "description": "비프 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_255/1738894698204oiBPd_PNG/%B9%E8%B9%CE_%BA%F1%C7%C13.png",
+      "nutrition": {
+        "kcal": 1337,
+        "protein": 134.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "비프(소목살) 500g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_12",
+      "name": "그릴드 비프 포크 덮밥",
+      "category": "덮밥",
+      "price": "12800",
+      "description": "직화 비프 스테이크 100g + 직화 포크 스테이크 100g,강황(커큐민)이 첨가된 저당밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_96/1738895119579hXpL2_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1_%C6%F7%C5%A9.png",
+      "nutrition": {
+        "kcal": 715,
+        "protein": 55.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "직화 비프 100g + 직화 포크 100g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_2",
+      "name": "그릴드 비프 카레라이스",
+      "category": "덮밥",
+      "price": "12900",
+      "description": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 비프 스테이크 200g, 일본식 카레",
+      "image": "https://ldb-phinf.pstatic.net/20251218_221/1766046377895zIJpF_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1_c.png",
+      "nutrition": {
+        "kcal": 819,
+        "protein": 59.7,
+        "carb": 72.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "일본식 카레소스 1인분",
+        "비프(소목살) 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_3",
+      "name": "그릴드 치킨 덮밥",
+      "category": "덮밥",
+      "price": "7900",
+      "description": "치킨 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_275/1738894555161Hywx8_PNG/%B9%E8%B9%CE_%C4%A1%C5%B2.png",
+      "nutrition": {
+        "kcal": 675,
+        "protein": 52.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "치킨(닭다리살) 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_4",
+      "name": "2XL 그릴드 치킨 덮밥",
+      "category": "덮밥",
+      "price": "9900",
+      "description": "치킨 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_54/1738894639831HoPCl_PNG/%B9%E8%B9%CE_%C4%A1%C5%B2.png",
+      "nutrition": {
+        "kcal": 884,
+        "protein": 76.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "치킨(닭다리살) 300g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_5",
+      "name": "3XL 그릴드 치킨 덮밥",
+      "category": "덮밥",
+      "price": "13900",
+      "description": "치킨 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_244/1738894606874gV1B6_PNG/%B9%E8%B9%CE_%C4%A1%C5%B23.png",
+      "nutrition": {
+        "kcal": 1302,
+        "protein": 124.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "치킨(닭다리살) 500g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_6",
+      "name": "그릴드 포크 덮밥",
+      "category": "덮밥",
+      "price": "8900",
+      "description": "포크 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_40/1738894628069CFxEi_PNG/%B9%E8%B9%CE_%C6%F7%C5%A9.png",
+      "nutrition": {
+        "kcal": 741,
+        "protein": 54.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "포크(돼지 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_7",
+      "name": "2XL 그릴드 포크 덮밥",
+      "category": "덮밥",
+      "price": "11900",
+      "description": "포크 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_204/17388946555818H0Q9_PNG/%B9%E8%B9%CE_%C6%F7%C5%A92.png",
+      "nutrition": {
+        "kcal": 983,
+        "protein": 79.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "포크(돼지 300g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_8",
+      "name": "3XL 그릴드 포크 덮밥",
+      "category": "덮밥",
+      "price": "17900",
+      "description": "포크 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_117/1738894663650IhO0L_PNG/%B9%E8%B9%CE_%C6%F7%C5%A93.png",
+      "nutrition": {
+        "kcal": 1467,
+        "protein": 129.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "포크(돼지 500g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_9",
+      "name": "그릴드 비프 덮밥",
+      "category": "덮밥",
+      "price": "11900",
+      "description": "비프 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+      "image": "https://ldb-phinf.pstatic.net/20250207_142/17388946811700OseT_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1.png",
+      "nutrition": {
+        "kcal": 689,
+        "protein": 56.7,
+        "carb": 56.7
+      },
+      "basis": [
+        "흰쌀밥 180g",
+        "비프(소목살) 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_13",
+      "name": "그릴드 치킨 파스타",
+      "category": "파스타",
+      "price": "8900",
+      "description": "치킨 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_45/17388947172485Pvgq_PNG/%B9%E8%B9%CE_%C4%A1%C5%B2_p.png",
+      "nutrition": {
+        "kcal": 655,
+        "protein": 56.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "치킨(닭다리살) 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_14",
+      "name": "2XL 그릴드 치킨 파스타",
+      "category": "파스타",
+      "price": "10900",
+      "description": "치킨 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_80/1738894727626nD7mB_PNG/%B9%E8%B9%CE_%C4%A1%C5%B22_p.png",
+      "nutrition": {
+        "kcal": 864,
+        "protein": 80.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "치킨(닭다리살) 300g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_15",
+      "name": "3XL 그릴드 치킨 파스타",
+      "category": "파스타",
+      "price": "14900",
+      "description": "치킨 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_46/17388947367003RfJ4_PNG/%B9%E8%B9%CE_%C4%A1%C5%B23_p.png",
+      "nutrition": {
+        "kcal": 1282,
+        "protein": 128.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "치킨(닭다리살) 500g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_16",
+      "name": "그릴드 포크 파스타",
+      "category": "파스타",
+      "price": "9900",
+      "description": "포크 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_251/1738894746983DCrPp_PNG/%B9%E8%B9%CE_%C6%F7%C5%A9_p.png",
+      "nutrition": {
+        "kcal": 721,
+        "protein": 58.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "포크(돼지 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_17",
+      "name": "2XL 그릴드 포크 파스타",
+      "category": "파스타",
+      "price": "12900",
+      "description": "포크 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_207/1738894755504zu3Lb_PNG/%B9%E8%B9%CE_%C6%F7%C5%A92_p.png",
+      "nutrition": {
+        "kcal": 963,
+        "protein": 83.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "포크(돼지 300g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_18",
+      "name": "3XL 그릴드 포크 파스타",
+      "category": "파스타",
+      "price": "18900",
+      "description": "포크 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_284/1738894794735jNC7E_PNG/%B9%E8%B9%CE_%C6%F7%C5%A93_p.png",
+      "nutrition": {
+        "kcal": 1447,
+        "protein": 133.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "포크(돼지 500g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_19",
+      "name": "그릴드 비프 파스타",
+      "category": "파스타",
+      "price": "12900",
+      "description": "비프 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_230/1738894772830si36c_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1_p.png",
+      "nutrition": {
+        "kcal": 669,
+        "protein": 60.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "비프(소목살) 200g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_20",
+      "name": "2XL 그릴드 비프 파스타",
+      "category": "파스타",
+      "price": "17900",
+      "description": "비프 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_206/1738894785568SPRUB_PNG/%B9%E8%B9%CE_%BA%F1%C7%C12_p.png",
+      "nutrition": {
+        "kcal": 885,
+        "protein": 86.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "비프(소목살) 300g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_21",
+      "name": "3XL 그릴드 비프 파스타",
+      "category": "파스타",
+      "price": "27900",
+      "description": "비프 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_285/17388948077395fHNW_PNG/%B9%E8%B9%CE_%BA%F1%C7%C13_p.png",
+      "nutrition": {
+        "kcal": 1317,
+        "protein": 138.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "비프(소목살) 500g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_22",
+      "name": "그릴드 비프 포크 파스타",
+      "category": "파스타",
+      "price": "13800",
+      "description": "직화 비프 스테이크 100g + 직화 포크 스테이크 100g, 강황 듀럼밀 저당 파스타",
+      "image": "https://ldb-phinf.pstatic.net/20250207_193/17388951724924BwT5_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1_%C6%F7%C5%A9_p.png",
+      "nutrition": {
+        "kcal": 695,
+        "protein": 59.7,
+        "carb": 46.3
+      },
+      "basis": [
+        "삶은 150g",
+        "직화 비프 100g + 직화 포크 100g"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_23",
+      "name": "싱글오리진 아메리카노 ICE",
+      "category": "음료",
+      "price": "2500",
+      "description": "대용량 벤티(591ml) 사이즈 에티오피아 싱글오리진 프리미엄 커피[묵직한 바디감]",
+      "image": "https://ldb-phinf.pstatic.net/20240921_109/1726912723272rQmrc_JPEG/DSC00406.JPG",
+      "nutrition": {
+        "kcal": 12,
+        "protein": 0.6,
+        "carb": 2.4
+      },
+      "basis": [
+        "아메리카노 벤티"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_24",
+      "name": "코카콜라 제로",
+      "category": "음료",
+      "price": "2000",
+      "description": "",
+      "image": "https://ldb-phinf.pstatic.net/20240922_174/1726985675360Ew8iN_PNG/%C4%DA%C4%AB%C4%DD%B6%F3.png",
+      "nutrition": {
+        "kcal": 0,
+        "protein": 0.0,
+        "carb": 0.0
+      },
+      "basis": [
+        "제로 음료(제로칼로리 표기)"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_25",
+      "name": "스프라이트 제로",
+      "category": "음료",
+      "price": "2000",
+      "description": "",
+      "image": "https://ldb-phinf.pstatic.net/20240922_71/1726985628579OuMOz_PNG/%BD%BA%C7%C1%B6%F3%C0%CC%C6%AE.png",
+      "nutrition": {
+        "kcal": 0,
+        "protein": 0.0,
+        "carb": 0.0
+      },
+      "basis": [
+        "제로 음료(제로칼로리 표기)"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_26",
+      "name": "제로 에너지드링크 포도맛",
+      "category": "음료",
+      "price": "2800",
+      "description": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
+      "image": "https://ldb-phinf.pstatic.net/20250207_55/1738894948681UGqpi_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%C6%F7%B5%B5.png",
+      "nutrition": {
+        "kcal": 0,
+        "protein": 0.0,
+        "carb": 0.0
+      },
+      "basis": [
+        "제로 음료(제로칼로리 표기)"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_27",
+      "name": "제로 에너지드링크 오렌지맛",
+      "category": "음료",
+      "price": "2800",
+      "description": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
+      "image": "https://ldb-phinf.pstatic.net/20250207_138/1738894985717ztwEn_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%BF%C0%B7%BB%C1%F6.png",
+      "nutrition": {
+        "kcal": 0,
+        "protein": 0.0,
+        "carb": 0.0
+      },
+      "basis": [
+        "제로 음료(제로칼로리 표기)"
+      ],
+      "status": "estimated"
+    },
+    {
+      "id": "1093880694_28",
+      "name": "제로 에너지드링크 레몬라임맛",
+      "category": "음료",
+      "price": "2800",
+      "description": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
+      "image": "https://ldb-phinf.pstatic.net/20250207_286/1738895024876Up8Sl_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%B7%B9%B8%F3%B6%F3%C0%D3.png",
+      "nutrition": {
+        "kcal": 0,
+        "protein": 0.0,
+        "carb": 0.0
+      },
+      "basis": [
+        "제로 음료(제로칼로리 표기)"
+      ],
+      "status": "estimated"
+    }
+  ]
+}

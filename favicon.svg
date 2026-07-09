@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="GRILLBOX favicon">
+<title>GRILLBOX symbol — 소형 단순화(불꽃+박스 실루엣)</title>
+<defs>
+<linearGradient id="fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF110E"/><stop offset="0.55" stop-color="#FF110E"/><stop offset="1" stop-color="#8E212B"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="512" height="512" rx="112" fill="#131211"/>
+<rect x="112" y="300" width="288" height="120" rx="26" fill="#201B1A" stroke="#FF110E" stroke-width="18"/>
+<path d="M256 74 C 300 138 330 176 330 226 A 74 74 0 1 1 182 226 C 182 188 206 172 220 144 C 230 172 250 178 256 160 C 270 130 250 102 256 74 Z" fill="url(#fl)"/>
+<path d="M256 158 C 284 198 296 216 296 240 A 42 42 0 1 1 214 240 C 214 218 228 208 236 190 C 244 208 256 210 258 198 C 264 180 252 172 256 158 Z" fill="#FFFFFF"/>
+</svg>
