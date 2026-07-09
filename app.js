@@ -1,9 +1,7 @@
 // 메뉴 데이터(JSON)를 읽어 카드 렌더 + 카테고리 필터. 데이터는 코드에 하드코딩하지 않음.
-const CATS = ["전체", "덮밥", "파스타", "음료"];
+const CATS = ["전체", "덮밥", "파스타"];
 let ALL = [];
 let active = "전체";
-
-const won = (n) => (n == null ? "-" : n.toLocaleString("ko-KR") + "원");
 
 // 계산근거 블록 화면 노출 토글. 데이터(m.basis)·로직은 유지, 렌더만 skip. 되살리려면 true.
 const SHOW_BASIS = false;
@@ -37,7 +35,6 @@ function cardHTML(m) {
       <div class="thumb"><span class="cat-badge">${m.category}</span>${img}</div>
       <div class="body">
         <div class="name">${m.name}</div>
-        <div class="price">${won(m.price)}</div>
         <div class="desc">${m.description || ""}</div>
         ${nutriBlock(m)}
       </div>

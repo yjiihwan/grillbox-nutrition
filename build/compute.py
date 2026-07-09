@@ -67,6 +67,8 @@ out = []
 for m in raw:
     name = m["name"]
     cat, nut, basis = compute(name)
+    if cat == "음료":  # 음료 메뉴는 페이지에서 제외(재생성 시에도 유입 차단)
+        continue
     imgs = m.get("images") or []
     entry = {
         "id": m.get("id"),

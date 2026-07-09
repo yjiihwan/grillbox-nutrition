@@ -54,7 +54,7 @@
   --maxw: 1120px;
 }
 /* 숫자는 tabular(고정폭)로 정렬 — 가이드 §2 */
-.price, .nutri .val, .nutri .val .u { font-variant-numeric: tabular-nums; }
+.nutri .val, .nutri .val .u { font-variant-numeric: tabular-nums; }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { -webkit-text-size-adjust: 100%; }
@@ -142,7 +142,6 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 }
 .card .body { padding: 13px 14px 14px; display: flex; flex-direction: column; flex: 1; }
 .card .name { font-size: var(--fs-menu); font-weight: 700; letter-spacing: -0.01em; }
-.card .price { color: var(--c-accent); font-weight: 700; font-size: var(--fs-body); margin-top: 2px; }
 .card .desc {
   color: var(--c-text-dim); font-size: var(--fs-small); margin-top: 8px;
   min-height: 2.4em;

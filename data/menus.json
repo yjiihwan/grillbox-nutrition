@@ -8,7 +8,7 @@
       "탄수화물(g)",
       "지방(g)"
     ],
-    "count": 29
+    "count": 23
   },
   "menus": [
     {
@@ -448,114 +448,6 @@
       "basis": [
         "삶은 150g",
         "직화 비프 100g + 직화 포크 100g"
-      ],
-      "status": "estimated"
-    },
-    {
-      "id": "1093880694_23",
-      "name": "싱글오리진 아메리카노 ICE",
-      "category": "음료",
-      "price": "2500",
-      "description": "대용량 벤티(591ml) 사이즈 에티오피아 싱글오리진 프리미엄 커피[묵직한 바디감]",
-      "image": "https://ldb-phinf.pstatic.net/20240921_109/1726912723272rQmrc_JPEG/DSC00406.JPG",
-      "nutrition": {
-        "kcal": 12,
-        "protein": 0.6,
-        "carb": 2.4,
-        "fat": 0.0
-      },
-      "basis": [
-        "아메리카노 벤티"
-      ],
-      "status": "estimated"
-    },
-    {
-      "id": "1093880694_24",
-      "name": "코카콜라 제로",
-      "category": "음료",
-      "price": "2000",
-      "description": "",
-      "image": "https://ldb-phinf.pstatic.net/20240922_174/1726985675360Ew8iN_PNG/%C4%DA%C4%AB%C4%DD%B6%F3.png",
-      "nutrition": {
-        "kcal": 0,
-        "protein": 0.0,
-        "carb": 0.0,
-        "fat": 0.0
-      },
-      "basis": [
-        "제로 음료(제로칼로리 표기)"
-      ],
-      "status": "estimated"
-    },
-    {
-      "id": "1093880694_25",
-      "name": "스프라이트 제로",
-      "category": "음료",
-      "price": "2000",
-      "description": "",
-      "image": "https://ldb-phinf.pstatic.net/20240922_71/1726985628579OuMOz_PNG/%BD%BA%C7%C1%B6%F3%C0%CC%C6%AE.png",
-      "nutrition": {
-        "kcal": 0,
-        "protein": 0.0,
-        "carb": 0.0,
-        "fat": 0.0
-      },
-      "basis": [
-        "제로 음료(제로칼로리 표기)"
-      ],
-      "status": "estimated"
-    },
-    {
-      "id": "1093880694_26",
-      "name": "제로 에너지드링크 포도맛",
-      "category": "음료",
-      "price": "2800",
-      "description": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
-      "image": "https://ldb-phinf.pstatic.net/20250207_55/1738894948681UGqpi_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%C6%F7%B5%B5.png",
-      "nutrition": {
-        "kcal": 0,
-        "protein": 0.0,
-        "carb": 0.0,
-        "fat": 0.0
-      },
-      "basis": [
-        "제로 음료(제로칼로리 표기)"
-      ],
-      "status": "estimated"
-    },
-    {
-      "id": "1093880694_27",
-      "name": "제로 에너지드링크 오렌지맛",
-      "category": "음료",
-      "price": "2800",
-      "description": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
-      "image": "https://ldb-phinf.pstatic.net/20250207_138/1738894985717ztwEn_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%BF%C0%B7%BB%C1%F6.png",
-      "nutrition": {
-        "kcal": 0,
-        "protein": 0.0,
-        "carb": 0.0,
-        "fat": 0.0
-      },
-      "basis": [
-        "제로 음료(제로칼로리 표기)"
-      ],
-      "status": "estimated"
-    },
-    {
-      "id": "1093880694_28",
-      "name": "제로 에너지드링크 레몬라임맛",
-      "category": "음료",
-      "price": "2800",
-      "description": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
-      "image": "https://ldb-phinf.pstatic.net/20250207_286/1738895024876Up8Sl_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%B7%B9%B8%F3%B6%F3%C0%D3.png",
-      "nutrition": {
-        "kcal": 0,
-        "protein": 0.0,
-        "carb": 0.0,
-        "fat": 0.0
-      },
-      "basis": [
-        "제로 음료(제로칼로리 표기)"
       ],
       "status": "estimated"
     }
