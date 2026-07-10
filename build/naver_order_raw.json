@@ -1,0 +1,1141 @@
+[
+ {
+  "id": "21384213",
+  "name": "(금_할인)그릴드 치킨렉 파스타",
+  "price": 9900,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "치킨렉 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_49/1769157879830qegWO_JPEG/11.JPG",
+  "isDeleted": false,
+  "order": 2
+ },
+ {
+  "id": "21384215",
+  "name": "(토_할인) 그릴드 비프 덮밥",
+  "price": 12900,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "비프 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_64/1769157927094QPDm5_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1.png",
+  "isDeleted": false,
+  "order": 9
+ },
+ {
+  "id": "21384204",
+  "name": "(월_할인) 그릴드 치킨 덮밥",
+  "price": 7900,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "치킨 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250227_90/1740623884655La6yM_PNG/%B9%E8%B9%CE_%C6%F7%C5%A9.png",
+  "isDeleted": false,
+  "order": 10
+ },
+ {
+  "id": "21384209",
+  "name": "(수_할인)그릴드 치킨 카레",
+  "price": 8900,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨 스테이크 200g, 일본식 카레",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_162/1769157684746Jxf4e_PNG/KakaoTalk_20260108_102556711_01.png",
+  "isDeleted": false,
+  "order": 16
+ },
+ {
+  "id": "21384208",
+  "name": "(화_할인) 그릴드 삼겹 파스타",
+  "price": 11800,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "삼겹 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_203/1769157518271eioMp_PNG/KakaoTalk_20260123_151959082_01.png",
+  "isDeleted": false,
+  "order": 21
+ },
+ {
+  "id": "21384211",
+  "name": "(목_할인)그릴드 삼겹 덮밥",
+  "price": 10800,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "삼겹 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_55/1769157746118V8w7t_PNG/KakaoTalk_20260123_151959082_02.png",
+  "isDeleted": false,
+  "order": 25
+ },
+ {
+  "id": "21384220",
+  "name": "(일_할인)그릴드 삼겹 카레라이스",
+  "price": 11800,
+  "categoryIds": [
+   "5926557",
+   "6724243"
+  ],
+  "categoryNames": [
+   "추천",
+   "요일별 특가"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 삼겹 스테이크 200g, 일본식 카레",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_11/1769157972526we1ma_PNG/KakaoTalk_20260123_151959082.png",
+  "isDeleted": false,
+  "order": 35
+ },
+ {
+  "id": "18902769",
+  "name": "그릴드 치킨 덮밥",
+  "price": 8900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "치킨 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250212_292/1739344809569xhVzF_PNG/%B9%E8%B9%CE_%C4%A1%C5%B2.png",
+  "isDeleted": false,
+  "order": 1
+ },
+ {
+  "id": "19003152",
+  "name": "2XL 그릴드 치킨 덮밥",
+  "price": 10900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "치킨 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250227_156/1740623761684qVQ5T_PNG/%B9%E8%B9%CE_%C4%A1%C5%B22.png",
+  "isDeleted": false,
+  "order": 5
+ },
+ {
+  "id": "19003167",
+  "name": "3XL 그릴드 치킨 덮밥",
+  "price": 14900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "치킨 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250227_204/17406238287831cd0p_PNG/%B9%E8%B9%CE_%C4%A1%C5%B23.png",
+  "isDeleted": false,
+  "order": 6
+ },
+ {
+  "id": "21483644",
+  "name": "그릴드 삼겹 덮밥",
+  "price": 11800,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "삼겹 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_295/1769155428583dtMjC_PNG/image.png",
+  "isDeleted": false,
+  "order": 8
+ },
+ {
+  "id": "21483648",
+  "name": "2XL 그릴드 삼겹 덮밥",
+  "price": 14800,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "삼겹 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "",
+  "isDeleted": false,
+  "order": 12
+ },
+ {
+  "id": "21483650",
+  "name": "3XL 그릴드 삼겹 덮밥",
+  "price": 20800,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "삼겹 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "",
+  "isDeleted": false,
+  "order": 14
+ },
+ {
+  "id": "19003215",
+  "name": "그릴드 비프 덮밥",
+  "price": 13900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "비프 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250227_196/1740624036386t66cw_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1.png",
+  "isDeleted": false,
+  "order": 15
+ },
+ {
+  "id": "19003228",
+  "name": "2XL 그릴드 비프 덮밥",
+  "price": 18900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "비프 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250227_180/1740624093728zFL6v_PNG/%B9%E8%B9%CE_%BA%F1%C7%C12.png",
+  "isDeleted": false,
+  "order": 17
+ },
+ {
+  "id": "19003236",
+  "name": "3XL 그릴드 비프 덮밥",
+  "price": 28900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "비프 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20250227_215/1740624125073M0tA9_PNG/%B9%E8%B9%CE_%BA%F1%C7%C13.png",
+  "isDeleted": false,
+  "order": 18
+ },
+ {
+  "id": "20998430",
+  "name": "그릴드 치킨렉(닭다리) 덮밥",
+  "price": 9900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "치킨렉(닭다리) 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "https://naverbooking-phinf.pstatic.net/20251205_205/17649168722950WinW_PNG/KakaoTalk_20251205_143734502_03.png",
+  "isDeleted": false,
+  "order": 86
+ },
+ {
+  "id": "20998435",
+  "name": "2XL 그릴드 치킨렉(닭다리) 덮밥",
+  "price": 12900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "치킨렉(닭다리) 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "",
+  "isDeleted": false,
+  "order": 88
+ },
+ {
+  "id": "20998434",
+  "name": "3XL 그릴드 치킨렉(닭다리) 덮밥",
+  "price": 18900,
+  "categoryIds": [
+   "5870112"
+  ],
+  "categoryNames": [
+   "그릴드 덮밥"
+  ],
+  "desc": "치킨렉(닭다리) 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 덮밥",
+  "image": "",
+  "isDeleted": false,
+  "order": 90
+ },
+ {
+  "id": "19037247",
+  "name": "그릴드 치킨 파스타",
+  "price": 9900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "치킨 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_135/1741049531429Iv0RG_PNG/%B9%E8%B9%CE_%C4%A1%C5%B2_p.png",
+  "isDeleted": false,
+  "order": 20
+ },
+ {
+  "id": "19037252",
+  "name": "2XL 그릴드 치킨 파스타",
+  "price": 11900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "치킨 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_119/1741049623493BNzUT_PNG/%B9%E8%B9%CE_%C4%A1%C5%B22_p.png",
+  "isDeleted": false,
+  "order": 22
+ },
+ {
+  "id": "19037255",
+  "name": "3XL 그릴드 치킨 파스타",
+  "price": 15900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "치킨 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_28/1741049737272KEwIv_PNG/%B9%E8%B9%CE_%C4%A1%C5%B23_p.png",
+  "isDeleted": false,
+  "order": 23
+ },
+ {
+  "id": "21483859",
+  "name": "그릴드 삼겹 파스타",
+  "price": 12800,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "삼겹 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_275/1769156352522Y9TQL_PNG/KakaoTalk_20260123_151959082_01.png",
+  "isDeleted": false,
+  "order": 28
+ },
+ {
+  "id": "21483862",
+  "name": "2XL 그릴드 삼겹 파스타",
+  "price": 15800,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "삼겹 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "",
+  "isDeleted": false,
+  "order": 29
+ },
+ {
+  "id": "21483863",
+  "name": "3XL 그릴드 삼겹 파스타",
+  "price": 21800,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "삼겹 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "",
+  "isDeleted": false,
+  "order": 30
+ },
+ {
+  "id": "19037287",
+  "name": "그릴드 비프 파스타",
+  "price": 14900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "비프 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_266/1741050340044NetfG_PNG/%B9%E8%B9%CE_%BA%F1%C7%C1_p.png",
+  "isDeleted": false,
+  "order": 31
+ },
+ {
+  "id": "19037295",
+  "name": "2XL 그릴드 비프 파스타",
+  "price": 19900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "비프 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_280/1741050423139t4he0_PNG/%B9%E8%B9%CE_%BA%F1%C7%C12_p.png",
+  "isDeleted": false,
+  "order": 32
+ },
+ {
+  "id": "19037299",
+  "name": "3XL 그릴드 비프 파스타",
+  "price": 29900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "비프 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_138/1741050471784eQFbt_PNG/%B9%E8%B9%CE_%BA%F1%C7%C13_p.png",
+  "isDeleted": false,
+  "order": 33
+ },
+ {
+  "id": "20998448",
+  "name": "그릴드 치킨렉(닭다리) 파스타",
+  "price": 10900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "치킨렉(닭다리) 스테이크 200g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "https://naverbooking-phinf.pstatic.net/20251205_138/1764916809936kH93B_PNG/KakaoTalk_20251205_143734502_01.png",
+  "isDeleted": false,
+  "order": 87
+ },
+ {
+  "id": "20998450",
+  "name": "2XL 그릴드 치킨렉(닭다리) 파스타",
+  "price": 13900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "치킨렉(닭다리) 스테이크 300g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "",
+  "isDeleted": false,
+  "order": 89
+ },
+ {
+  "id": "20998452",
+  "name": "3XL 그릴드 치킨렉(닭다리) 파스타",
+  "price": 19900,
+  "categoryIds": [
+   "5907498"
+  ],
+  "categoryNames": [
+   "그릴드 파스타"
+  ],
+  "desc": "치킨렉(닭다리) 스테이크 500g, 부드럽게 수비드 조리 후 직화로 불맛을 살린 스페셜 파스타",
+  "image": "",
+  "isDeleted": false,
+  "order": 91
+ },
+ {
+  "id": "19037308",
+  "name": "그릴드 치킨 카레라이스",
+  "price": 9900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨 스테이크 200g, 일본식 카레",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_231/1742954361232sPtIH_PNG/KakaoTalk_20250325_171053629_01.png",
+  "isDeleted": false,
+  "order": 34
+ },
+ {
+  "id": "19037340",
+  "name": "그릴드 비프 카레라이스",
+  "price": 14900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 비프 스테이크 200g, 일본식 카레",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_120/1742954430016Xswiq_PNG/KakaoTalk_20250325_171053629.png",
+  "isDeleted": false,
+  "order": 37
+ },
+ {
+  "id": "19483257",
+  "name": "2XL 그릴드 치킨 카레라이스",
+  "price": 11900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨 스테이크 300g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 60
+ },
+ {
+  "id": "20998505",
+  "name": "그릴드 치킨렉(닭다리) 카레라이스",
+  "price": 10900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨렉 스테이크 200g, 일본식 카레",
+  "image": "https://naverbooking-phinf.pstatic.net/20251205_296/1764916841653rSm94_PNG/KakaoTalk_20251205_143734502.png",
+  "isDeleted": false,
+  "order": 61
+ },
+ {
+  "id": "20998504",
+  "name": "2XL 그릴드 치킨렉(닭다리) 카레라이스",
+  "price": 13900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨렉 스테이크 300g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 62
+ },
+ {
+  "id": "20998503",
+  "name": "3XL 그릴드 치킨렉(닭다리) 카레라이스",
+  "price": 19900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨렉 스테이크 500g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 63
+ },
+ {
+  "id": "19483265",
+  "name": "3XL 그릴드 치킨 카레라이스",
+  "price": 15900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 치킨 스테이크 500g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 64
+ },
+ {
+  "id": "21483887",
+  "name": "그릴드 삼겹 카레라이스",
+  "price": 12800,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 삼겹 스테이크 200g, 일본식 카레",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_192/17691566862953MiyJ_PNG/KakaoTalk_20260123_151959082.png",
+  "isDeleted": false,
+  "order": 67
+ },
+ {
+  "id": "21483888",
+  "name": "2XL 그릴드 삼겹 카레라이스",
+  "price": 15800,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 삼겹 스테이크 300g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 68
+ },
+ {
+  "id": "21483890",
+  "name": "3XL 그릴드 삼겹 카레라이스",
+  "price": 21800,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 삼겹 스테이크 500g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 69
+ },
+ {
+  "id": "19483317",
+  "name": "2XL 그릴드 비프 카레라이스",
+  "price": 19900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 비프 스테이크 300g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 70
+ },
+ {
+  "id": "19483320",
+  "name": "3XL 그릴드 비프 카레라이스",
+  "price": 29900,
+  "categoryIds": [
+   "5907501"
+  ],
+  "categoryNames": [
+   "일본식 카레라이스"
+  ],
+  "desc": "맛있는 일본식 카레와 함께 즐기는 직화고기 덮밥, 비프 스테이크 500g, 일본식 카레",
+  "image": "",
+  "isDeleted": false,
+  "order": 71
+ },
+ {
+  "id": "19037410",
+  "name": "코카콜라 제로",
+  "price": 2000,
+  "categoryIds": [
+   "5916459"
+  ],
+  "categoryNames": [
+   "음료"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_257/1741051318476vYX7a_PNG/%B4%D9%BF%EE%B7%CE%B5%E5.png",
+  "isDeleted": false,
+  "order": 38
+ },
+ {
+  "id": "19037438",
+  "name": "스프라이트 제로",
+  "price": 2000,
+  "categoryIds": [
+   "5916459"
+  ],
+  "categoryNames": [
+   "음료"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_165/1741051415299YM1CJ_PNG/%B4%D9%BF%EE%B7%CE%B5%E5_%281%29.png",
+  "isDeleted": false,
+  "order": 39
+ },
+ {
+  "id": "19037456",
+  "name": "제로 에너지드링크 포도맛",
+  "price": 2800,
+  "categoryIds": [
+   "5916459"
+  ],
+  "categoryNames": [
+   "음료"
+  ],
+  "desc": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_245/1741051469692X4kd4_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%C6%F7%B5%B5.png",
+  "isDeleted": false,
+  "order": 40
+ },
+ {
+  "id": "19037462",
+  "name": "제로 에너지드링크 오렌지맛",
+  "price": 2800,
+  "categoryIds": [
+   "5916459"
+  ],
+  "categoryNames": [
+   "음료"
+  ],
+  "desc": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_230/1741051500240G2Buq_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%BF%C0%B7%BB%C1%F6.png",
+  "isDeleted": false,
+  "order": 41
+ },
+ {
+  "id": "19037493",
+  "name": "제로 에너지드링크 레몬라임맛",
+  "price": 2800,
+  "categoryIds": [
+   "5916459"
+  ],
+  "categoryNames": [
+   "음료"
+  ],
+  "desc": "활력업! 피로회복! 제로슈가,제로칼로리,제로카페인! BCAA[근육 회복/피로 감소]",
+  "image": "https://naverbooking-phinf.pstatic.net/20250304_91/1741051605765ruEeL_PNG/%B9%E8%B9%CE_%BF%A1%B3%CA%C1%F6%B5%E5%B8%B5%C5%A9%B7%B9%B8%F3%B6%F3%C0%D3.png",
+  "isDeleted": false,
+  "order": 42
+ },
+ {
+  "id": "19418225",
+  "name": "싱글오리진 아메리카노 ICE",
+  "price": 2500,
+  "categoryIds": [
+   "5916459"
+  ],
+  "categoryNames": [
+   "음료"
+  ],
+  "desc": "대용량 벤티(591ml) 사이즈 에티오피아 싱글오리진 프리미엄 커피[묵직한 바디감과 은은한 단맛]",
+  "image": "https://naverbooking-phinf.pstatic.net/20250418_174/17449405272533H4td_JPEG/KakaoTalk_20250418_104138937.jpg",
+  "isDeleted": false,
+  "order": 59
+ },
+ {
+  "id": "19214968",
+  "name": "그릴드 치킨 샐러드",
+  "price": 9900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 치킨 스테이크 200g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_146/1742954582498MABak_PNG/KakaoTalk_20250325_171201523_02.png",
+  "isDeleted": false,
+  "order": 44
+ },
+ {
+  "id": "20998470",
+  "name": "그릴드 치킨렉(닭다리) 샐러드",
+  "price": 10900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 치킨렉 스테이크 200g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20251205_28/1764916857215bm9B5_PNG/KakaoTalk_20251205_143734502_02.png",
+  "isDeleted": false,
+  "order": 45
+ },
+ {
+  "id": "20998478",
+  "name": "2XL 그릴드 치킨렉(닭다리) 샐러드",
+  "price": 13900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 치킨렉 스테이크 300g 당일 수급 신선한 채소 2X",
+  "image": "",
+  "isDeleted": false,
+  "order": 46
+ },
+ {
+  "id": "20998477",
+  "name": "3XL그릴드 치킨렉(닭다리) 샐러드",
+  "price": 19900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 치킨렉 스테이크 500g 당일 수급 신선한 채소 2X",
+  "image": "",
+  "isDeleted": false,
+  "order": 47
+ },
+ {
+  "id": "19638033",
+  "name": "2XL 그릴드 치킨 샐러드",
+  "price": 11900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 치킨 스테이크 300g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_146/1742954582498MABak_PNG/KakaoTalk_20250325_171201523_02.png",
+  "isDeleted": false,
+  "order": 48
+ },
+ {
+  "id": "19638031",
+  "name": "3XL 그릴드 치킨 샐러드",
+  "price": 15900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 치킨 스테이크 500g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_146/1742954582498MABak_PNG/KakaoTalk_20250325_171201523_02.png",
+  "isDeleted": false,
+  "order": 49
+ },
+ {
+  "id": "21483898",
+  "name": "그릴드 삼겹 샐러드",
+  "price": 12800,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 삼겹 스테이크 200g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20260123_112/1769156605284zb1qw_PNG/KakaoTalk_20260123_151959082_03.png",
+  "isDeleted": false,
+  "order": 53
+ },
+ {
+  "id": "21483899",
+  "name": "2XL 그릴드 삼겹 샐러드",
+  "price": 15800,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 삼겹 스테이크 300g 당일 수급 신선한 채소 2X",
+  "image": "",
+  "isDeleted": false,
+  "order": 54
+ },
+ {
+  "id": "21483900",
+  "name": "3XL 그릴드 삼겹 샐러드",
+  "price": 21800,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 삼겹 스테이크 500g 당일 수급 신선한 채소 2X",
+  "image": "",
+  "isDeleted": false,
+  "order": 55
+ },
+ {
+  "id": "19215037",
+  "name": "그릴드 비프 샐러드",
+  "price": 14900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 비프 스테이크 200g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_255/1742954938317pshNK_PNG/KakaoTalk_20250325_171201523.png",
+  "isDeleted": false,
+  "order": 56
+ },
+ {
+  "id": "19638045",
+  "name": "2XL 그릴드 비프 샐러드",
+  "price": 19900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 비프 스테이크 300g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_255/1742954938317pshNK_PNG/KakaoTalk_20250325_171201523.png",
+  "isDeleted": false,
+  "order": 57
+ },
+ {
+  "id": "19638044",
+  "name": "3XL 그릴드 비프 샐러드",
+  "price": 29900,
+  "categoryIds": [
+   "5984000"
+  ],
+  "categoryNames": [
+   "그릴드 샐러드"
+  ],
+  "desc": "다이어터를 위한 샐러드 메뉴 직화 비프 스테이크 500g 당일 수급 신선한 채소 2X",
+  "image": "https://naverbooking-phinf.pstatic.net/20250326_255/1742954938317pshNK_PNG/KakaoTalk_20250325_171201523.png",
+  "isDeleted": false,
+  "order": 58
+ },
+ {
+  "id": "19638071",
+  "name": "그릴드 맥반석 계란 2구",
+  "price": 1400,
+  "categoryIds": [
+   "6130393"
+  ],
+  "categoryNames": [
+   "사이드"
+  ],
+  "desc": "직화 맥반석 계란 2구 + 깨소금",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_230/1747128395978t55pj_JPEG/KakaoTalk_20250513_143120701.jpg",
+  "isDeleted": false,
+  "order": 72
+ },
+ {
+  "id": "20718072",
+  "name": "SLICE 피클",
+  "price": 500,
+  "categoryIds": [
+   "6130393"
+  ],
+  "categoryNames": [
+   "사이드"
+  ],
+  "desc": "절임 오이 피클 슬라이스 80g",
+  "image": "",
+  "isDeleted": false,
+  "order": 85
+ },
+ {
+  "id": "19638077",
+  "name": "특제 갈릭 야끼니구 소스",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_96/1747128468823rCnX9_PNG/KakaoTalk_20250513_143120701_03.png",
+  "isDeleted": false,
+  "order": 73
+ },
+ {
+  "id": "19638080",
+  "name": "특제 스파이시 청양",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_242/1747128497045WtaF0_PNG/KakaoTalk_20250513_143120701_06.png",
+  "isDeleted": false,
+  "order": 74
+ },
+ {
+  "id": "19638085",
+  "name": "오리엔탈 소스",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_288/1747128529986dl1Gs_PNG/KakaoTalk_20250513_143120701_04.png",
+  "isDeleted": false,
+  "order": 75
+ },
+ {
+  "id": "19638088",
+  "name": "스리라차 마요 소스",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_36/1747128553799yhzzz_PNG/KakaoTalk_20250513_143120701_01.png",
+  "isDeleted": false,
+  "order": 76
+ },
+ {
+  "id": "19638092",
+  "name": "고소한 참깨 소스",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_193/1747128580257rOsY5_PNG/KakaoTalk_20250513_143120701_05.png",
+  "isDeleted": false,
+  "order": 77
+ },
+ {
+  "id": "19638093",
+  "name": "특제 스테이크 소스",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20250513_89/1747128615960yR3As_PNG/KakaoTalk_20250513_143120701_02.png",
+  "isDeleted": false,
+  "order": 78
+ },
+ {
+  "id": "22308362",
+  "name": "시그니처 불닭(매움주의)",
+  "price": 1000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "",
+  "image": "https://naverbooking-phinf.pstatic.net/20260511_193/17784699947723anYR_PNG/image.png",
+  "isDeleted": false,
+  "order": 79
+ },
+ {
+  "id": "20718066",
+  "name": "일본식 카레 소스",
+  "price": 3000,
+  "categoryIds": [
+   "6130401"
+  ],
+  "categoryNames": [
+   "그릴드 특제 소스"
+  ],
+  "desc": "일본식 카레 소스 250ml",
+  "image": "",
+  "isDeleted": false,
+  "order": 84
+ },
+ {
+  "id": "19692982",
+  "name": "덮밥 세트 할인",
+  "price": 9800,
+  "categoryIds": [
+   "6150796"
+  ],
+  "categoryNames": [
+   "그릴박스 세트메뉴"
+  ],
+  "desc": "덮밥(택1) + 음료(택1)",
+  "image": "https://naverbooking-phinf.pstatic.net/20250521_156/1747794577802laUeY_JPEG/image.jpg",
+  "isDeleted": false,
+  "order": 80
+ },
+ {
+  "id": "19693137",
+  "name": "파스타 세트 할인",
+  "price": 10800,
+  "categoryIds": [
+   "6150796"
+  ],
+  "categoryNames": [
+   "그릴박스 세트메뉴"
+  ],
+  "desc": "파스타(택1) + 음료(택1)",
+  "image": "https://naverbooking-phinf.pstatic.net/20250521_146/1747795185632ofHre_JPEG/image.jpg",
+  "isDeleted": false,
+  "order": 81
+ },
+ {
+  "id": "20720425",
+  "name": "샐러드 세트 할인",
+  "price": 10800,
+  "categoryIds": [
+   "6150796"
+  ],
+  "categoryNames": [
+   "그릴박스 세트메뉴"
+  ],
+  "desc": "샐러드(택1) + 음료(택1)",
+  "image": "",
+  "isDeleted": false,
+  "order": 82
+ },
+ {
+  "id": "20720427",
+  "name": "카레라이스 세트 할인",
+  "price": 10800,
+  "categoryIds": [
+   "6150796"
+  ],
+  "categoryNames": [
+   "그릴박스 세트메뉴"
+  ],
+  "desc": "카레라이스(택1) + 음료(택1)",
+  "image": "",
+  "isDeleted": false,
+  "order": 83
+ }
+]

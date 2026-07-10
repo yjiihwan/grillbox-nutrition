@@ -8,17 +8,20 @@
 //    detection precedence는 배열 순서(구체적인 것 먼저)라 "카레라이스"가 덮밥으로 새지 않는다.
 const CATEGORIES = [
   { key: "카레", rank: 2, match: (n) => n.includes("카레") },
+  { key: "샐러드", rank: 3, match: (n) => n.includes("샐러드") },
   { key: "파스타", rank: 1, match: (n) => n.includes("파스타") },
   { key: "덮밥", rank: 0, match: (n) => n.includes("덮밥") },
 ];
 // 필터 칩 표시 순서(정렬 우선순위와 동일)
-const CAT_CHIPS = ["전체", "덮밥", "파스타", "카레"];
+const CAT_CHIPS = ["전체", "덮밥", "파스타", "카레", "샐러드"];
 
-// 2) 고기: 닭 → 돼지 → 소. 단일 고기 뒤에 복합(2종+), 그 뒤에 미정의.
+// 2) 고기: 치킨(닭가슴) → 치킨렉(닭다리) → 삼겹(돼지) → 비프(소) → 미정의.
+//    precedence는 배열 순서(구체적인 "치킨렉"을 "치킨"보다 먼저)로 오분류를 막는다.
 const MEATS = [
-  { key: "닭", rank: 0, match: (n) => n.includes("치킨") },
-  { key: "돼지", rank: 1, match: (n) => n.includes("포크") },
-  { key: "소", rank: 2, match: (n) => n.includes("비프") },
+  { key: "치킨렉", rank: 1, match: (n) => n.includes("치킨렉") },
+  { key: "치킨", rank: 0, match: (n) => n.includes("치킨") },
+  { key: "삼겹", rank: 2, match: (n) => n.includes("삼겹") },
+  { key: "비프", rank: 3, match: (n) => n.includes("비프") },
 ];
 
 // 3) 사이즈: 무표기(기본) → XL → 2XL → 3XL. 긴 토큰 먼저 검사(2XL이 XL로 새지 않도록).
@@ -29,10 +32,8 @@ function categoryOf(name) {
   return CATEGORIES.find((c) => c.match(name)) || null;
 }
 function meatRank(name) {
-  const hit = MEATS.filter((m) => m.match(name));
-  if (hit.length === 0) return MEATS.length + 1; // 미정의 → 맨뒤
-  if (hit.length === 1) return hit[0].rank;
-  return MEATS.length; // 복합(2종+) → 단일 고기 뒤, 미정의 앞
+  const hit = MEATS.find((m) => m.match(name)); // precedence(배열 순서) 첫 매치
+  return hit ? hit.rank : MEATS.length; // 미정의 → 맨뒤
 }
 function sizeRank(name) {
   const t = SIZE_TOKENS.find((s) => name.includes(s));
