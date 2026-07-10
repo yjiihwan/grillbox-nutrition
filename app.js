@@ -1,5 +1,62 @@
-// 메뉴 데이터(JSON)를 읽어 카드 렌더 + 카테고리 필터. 데이터는 코드에 하드코딩하지 않음.
-const CATS = ["전체", "덮밥", "파스타"];
+// 메뉴 데이터(JSON)를 읽어 카드 렌더 + 카테고리 필터.
+// 정렬은 데이터에 하드코딩하지 않는다. 각 메뉴 이름에서 (카테고리·고기·사이즈) 축을
+// 추출해 계층형으로 정렬하므로, 메뉴가 추가돼도 아래 순서표(ORDER 상수)만 지키면 자동 정렬된다.
+// 새 카테고리/고기/사이즈를 지원하려면 해당 순서표에 항목만 추가하면 된다.
+
+// ── 분류 순서표(설정) ─────────────────────────────────────────────
+// 1) 카테고리: 덮밥 → 파스타 → 카레. 정의 안 된 카테고리는 맨뒤(rank 99).
+//    detection precedence는 배열 순서(구체적인 것 먼저)라 "카레라이스"가 덮밥으로 새지 않는다.
+const CATEGORIES = [
+  { key: "카레", rank: 2, match: (n) => n.includes("카레") },
+  { key: "파스타", rank: 1, match: (n) => n.includes("파스타") },
+  { key: "덮밥", rank: 0, match: (n) => n.includes("덮밥") },
+];
+// 필터 칩 표시 순서(정렬 우선순위와 동일)
+const CAT_CHIPS = ["전체", "덮밥", "파스타", "카레"];
+
+// 2) 고기: 닭 → 돼지 → 소. 단일 고기 뒤에 복합(2종+), 그 뒤에 미정의.
+const MEATS = [
+  { key: "닭", rank: 0, match: (n) => n.includes("치킨") },
+  { key: "돼지", rank: 1, match: (n) => n.includes("포크") },
+  { key: "소", rank: 2, match: (n) => n.includes("비프") },
+];
+
+// 3) 사이즈: 무표기(기본) → XL → 2XL → 3XL. 긴 토큰 먼저 검사(2XL이 XL로 새지 않도록).
+const SIZE_TOKENS = ["3XL", "2XL", "XL"];
+
+// ── 분류 함수 ─────────────────────────────────────────────────────
+function categoryOf(name) {
+  return CATEGORIES.find((c) => c.match(name)) || null;
+}
+function meatRank(name) {
+  const hit = MEATS.filter((m) => m.match(name));
+  if (hit.length === 0) return MEATS.length + 1; // 미정의 → 맨뒤
+  if (hit.length === 1) return hit[0].rank;
+  return MEATS.length; // 복합(2종+) → 단일 고기 뒤, 미정의 앞
+}
+function sizeRank(name) {
+  const t = SIZE_TOKENS.find((s) => name.includes(s));
+  if (!t) return 0; // 무표기 = 기본
+  const num = parseInt(t, 10); // "3XL"→3, "2XL"→2, "XL"→NaN
+  return Number.isNaN(num) ? 1 : num; // XL은 무표기와 2XL 사이
+}
+function classify(m) {
+  const cat = categoryOf(m.name);
+  return {
+    ...m,
+    category: cat ? cat.key : m.category || "기타", // 파생 카테고리로 덮어씀(배지·필터 일관)
+    _catRank: cat ? cat.rank : 99,
+    _meatRank: meatRank(m.name),
+    _sizeRank: sizeRank(m.name),
+  };
+}
+function sortMenus(list) {
+  return [...list].sort(
+    (a, b) =>
+      a._catRank - b._catRank || a._meatRank - b._meatRank || a._sizeRank - b._sizeRank
+  );
+}
+
 let ALL = [];
 let active = "전체";
 
@@ -49,7 +106,7 @@ function render() {
 
 function buildTabs() {
   const wrap = document.getElementById("tabs");
-  wrap.innerHTML = CATS.map(
+  wrap.innerHTML = CAT_CHIPS.map(
     (c) => `<button class="tab${c === active ? " active" : ""}" data-cat="${c}">${c}</button>`
   ).join("");
   wrap.querySelectorAll(".tab").forEach((b) =>
@@ -64,7 +121,8 @@ function buildTabs() {
 async function init() {
   const res = await fetch("data/menus.json");
   const data = await res.json();
-  ALL = data.menus;
+  // 분류(카테고리·고기·사이즈) 부여 후 계층 정렬. 원본 JSON 순서에 의존하지 않는다.
+  ALL = sortMenus(data.menus.map(classify));
   // 계산근거성 서술(재료·데이터 기반 방법론) 비노출 → index.html의 짧은 disclaimer 유지.
   // 되살리려면 아래 주석 해제. 데이터(_meta.disclaimer)는 그대로 남김.
   // document.getElementById("disc").textContent = "※ " + data._meta.disclaimer;
